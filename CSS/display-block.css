@@ -1,0 +1,5 @@
+header {
+    display: block; /* Permite somente 1 item por linha*/
+    display: inline; /* Permite mais de 1 item por linha, porém não permite alterar espaçamentos*/
+    display: inline-block; /* Permite mais de 1 item por linha e permite alterar seus espaçamentos*/
+}

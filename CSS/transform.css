@@ -1,0 +1,28 @@
+.enviar {
+    width: 40%;
+    margin: 20px 0;
+    padding: 15px 0;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background: black;
+    transform: scale(1.2);
+    transform: rotate(90deg);
+}
+/* 
+
+    Nesse exemplo de botao existem 2 transformacoes:
+        1- scale(1.2): Aumenta ou diminui proporcionalmente o botao na medida declarada.
+        2- rorate(90deg): Rotaciona o botao na medida declarada em graus (deg).
+    OBS.: Nessa contexto, a segunda declaracao (rotate) vai sobreescrever a primeira devido ao estilo de cascata do CSS, Para aplicar as 2 transformacoes ao mesmo tempo deve-se declara-las na mesma linha de codido:
+        transform: rotate(90deg) scale(1.2);
+
+*/

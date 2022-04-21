@@ -1,0 +1,5 @@
+p {
+    text-transform: uppercase; /* Transforma o texto em maiúsculas*/
+    text-transform: lowercase; /* Transforma o texto em minúsculas*/
+    text-transform: capitalize; /* Deixa a primeira letra de cada palavra maiúscula*/
+}
