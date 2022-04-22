@@ -1,0 +1,14 @@
+
+.titulo-principal:before {
+    content: "[ ";
+    /*
+    Cria um espaco em que o css pode ser usado antes do elemento, nesse caso, o conteudo "[ "
+    */
+}
+
+.titulo-principal:after {
+    content: " ]";
+    /*
+    Cria um espaco em que o css pode ser usado depois do elemento, nesse caso, o conteudo " ]"
+    */
+}

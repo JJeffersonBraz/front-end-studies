@@ -1,0 +1,11 @@
+.conteudo-principal {
+    background:linear-gradient(red, orange);
+
+    background:linear-gradient(red, orange,blue, yellow);
+
+    background:linear-gradient(50% red, orange,blue, yellow);
+
+    background:linear-gradient(90deg, red, orange,blue, yellow);
+
+    background:radial-gradient(red, orange);
+}

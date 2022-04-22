@@ -3,3 +3,15 @@ header {
     display: inline; /* Permite mais de 1 item por linha, porém não permite alterar espaçamentos*/
     display: inline-block; /* Permite mais de 1 item por linha e permite alterar seus espaçamentos*/
 }
+
+/*
+
+    display: block
+        Permite somente 1 item por linha
+    display: inline
+        Permite mais de 1 item por linha, porém não permite alterar espaçamentos
+    display: inline-block
+        Permite mais de 1 item por linha e permite alterar seus espaçamentos.
+        Lembrando que quando quisermos utilizar 100% da largura de um elemento, e' necessario  definir os elementos com as dimensoes que somen 100% e tirar todo espacamentos existente entre as tags no HTML, pois quando estamos usando o inline-block, o css interpreta ate os espacamentos vazios entre as divs.               
+
+*/

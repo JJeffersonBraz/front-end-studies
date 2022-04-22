@@ -1,0 +1,33 @@
+main > p {
+    background: red; /* Seleciona somente os <p> filhos diretos do <main>. */
+}
+
+img > p {
+    background: red; /* Seleciona somente o primeiro <p> que vem depois de uma <img> (irmao). */
+}
+
+img ~ p {
+    background: red; /* Seleciona todos os <p> que vem depois de uma <img> (irmao). */
+}
+
+main p:not(#conteudo) {
+    background: red;
+    /*
+    Seleciona todos os <p> que nao tenham sido identificados como "conteudo" (id=conteudo) no HTML.*/    
+}
+
+/* 
+
+    Exemplo:
+        <h2>
+        <section>
+            <h2>
+            <p>
+            </p>
+            <h2>
+
+    Como fazemos para selecionar o último <h2>?
+
+    section > p + h2    O último h2 é filho direto da section e irmão do p.
+
+*/

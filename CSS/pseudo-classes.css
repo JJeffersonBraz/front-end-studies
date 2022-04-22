@@ -1,0 +1,39 @@
+.itens:first-child {
+    font-weight: bold; /* As estilizacoes serao aplicadas no primeiro filho da lista/sequencia */
+}
+
+.itens:nth-child(2) {
+    font-weight: bold; /* As estilizacoes serao aplicadas no segundo filho da lista/sequencia */
+}
+
+.itens:nth-child(5) {
+    font-weight: bold; /* As estilizacoes serao aplicadas no quinto filho da lista/sequencia */
+}
+
+.itens:last-child {
+    font-weight: bold; /* As estilizacoes serao aplicadas no ultimo filho da lista/sequencia */
+}
+
+.itens:nth-child(2n) {
+    font-weight: bold; /* As estilizacoes serao aplicadas nos elementos pares da lista/sequencia */
+}
+
+/* ________________________________________________________________________________ */
+
+.titulo-principal:first-letter {
+    font-weight: bold; /* As estilizacoes serao aplicadas na primeira letra do titulo */
+}
+
+p:first-line {
+    font-style: italic; /* As estilizacoes serao aplicadas na primeira linha do paragrafo */
+}
+
+/* 
+
+    Existem varias pseudo-classes. Segue algumas mais utilizadas:
+        :hover -> Quando o cursor esta em cima do item.
+        :active -> quando o item e' acionado (clicado).
+        :visited -> Link ja acionado (visitado).
+        :required -> Item obrigadorio.
+
+*/

@@ -1,0 +1,11 @@
+h1 {
+    text-shadow: 10px 20px 30px 40px #000000;
+}
+
+/* 
+    10px -> Deslocamento horizontal da sombra:
+    20px -> Deslocamento vertical da sombra:
+    30px -> Esfumacamento da sombra (transparencia):
+    40px -> Intensidade da borda.    
+    #000000 -> Cor da sombra
+*/

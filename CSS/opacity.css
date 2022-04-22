@@ -1,0 +1,23 @@
+.img-beneficios {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.img-beneficios:hover {
+    opacity: 0.3;
+}
+/*
+    Podemos aplicar opacidade nos elementos com css (0 ate 1).
+    No contexto acima, ao passar o cursor sobre a imagem, so veremos 30% da imagem nitida.
+*/
+
+thead {
+    background: gray;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.3);
+}
+/*
+    Podemos aplicar opacidade tambem nas cores dos elementos usando a opcao rgba(red, green, blue, alpha) onde o alpha e' a camada de opacidade.
+    No contexto acima, so veremos 30% da texto nitido.
+*/
