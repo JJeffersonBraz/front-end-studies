@@ -1,0 +1,18 @@
+:root {
+    --branco: #FFF;
+    --azul-claro: #DFE3E5;
+    --vermelho-forte: #B72E2E;
+    --cinza-escuro: #4F4C4C;
+    
+    --planos-cartao-start: #56CCF2;
+    --planos-cartao-ultra: #B04CD9;
+    --planos-cartao-mega: #E33B3B;
+
+    --montserrat: 'Montserrat', sans-serif; 
+}
+
+/* 
+    Podemos declarar variaveis no css para facilitar na digitacao e deixar o codigo mais limpo
+    declaracao de uma variavel e': 
+        --variavel: valor;
+*/

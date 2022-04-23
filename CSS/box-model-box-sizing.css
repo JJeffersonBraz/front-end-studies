@@ -8,7 +8,7 @@ h1 {
 
     box-sizing: border-box;
 }
-/* Elementos que definem o tamanho total do elemento na pagina */
+/* Propriedades que definem o tamanho total do elemento na pagina */
 
 .produtos li {
     display: inline-block;
