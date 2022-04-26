@@ -1,0 +1,33 @@
+.menu__lateral {
+    display: flex;
+
+    flex-direction: row;
+}
+/* Direcao que o flex container vai seguir, no caso acima, ficarao em linha (valor padrao) */
+
+.menu__lateral {
+    display: flex;
+
+    flex-direction: row-reverse;
+}
+/* Direcao que o flex container vai seguir, no caso acima, ficarao em linha (reverso) */
+
+.menu__lateral {
+    display: flex;
+
+    flex-direction: column;
+}
+/*
+    Direcao que o flex container vai seguir, no caso acima, ficarao em coluna
+    Ao inverter a posicao de linha pra coluna, os atributos justify-content e align-items tambem tem suas posicoes (vertical e horizontal) invertidas.
+*/
+
+.menu__lateral {
+    display: flex;
+
+    flex-direction: column-reverse;
+}
+/*
+    Direcao que o flex container vai seguir, no caso acima, ficarao em coluna (reverso)
+    Ao inverter a posicao de linha pra coluna, os atributos justify-content e align-items tambem tem suas posicoes (vertical e horizontal) invertidas.
+*/

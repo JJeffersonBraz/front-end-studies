@@ -1,0 +1,31 @@
+.cabecalho {
+    display: flex;
+
+    align-items: flex-start;
+}
+/* Todos os elementos ficam no topo do flex container. */
+
+.cabecalho {
+    display: flex;
+
+    align-items: flex-end;
+}
+/* Todos os elementos ficam na base do flex container. */
+
+.cabecalho {
+    display: flex;
+
+    align-items: center;
+}
+/* Todos os elementos ficam alinhados no meio do flex container. */
+
+.cabecalho {
+    display: flex;
+
+    justify-content: space-around;
+}
+/* Todos os elementos passam a ocupar a altura maxima do flex container. (Valor padrao)*/
+
+/*
+Importante lembrar que as propriedades justify-content e align-items apenas movimentam as tags filhas diretas do flex container.
+*/

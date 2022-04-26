@@ -1,0 +1,45 @@
+.cabecalho {
+    display: flex;
+
+    justify-content: flex-start;
+}
+/* Todos os elementos ficam no inicio do flex container (esquerda). (Valor padrao)*/
+
+.cabecalho {
+    display: flex;
+
+    justify-content: flex-end;
+}
+/* Todos os elementos ficam no final do flex container (direita). */
+
+.cabecalho {
+    display: flex;
+
+    justify-content: center;
+}
+/* Todos os elementos no meio do flex container, e distribui os espacamentos nas laterais. */
+
+.cabecalho {
+    display: flex;
+
+    justify-content: space-around;
+}
+/* distribui os elementos com espacamentos iguais para cada elemento (Os espacamentos entre os elementos sao dobrados). */
+
+.cabecalho {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+/* distribui os elementos com espacamentos iguais entre eles. (com espacamentos nas bordas) */
+
+.cabecalho {
+    display: flex;
+
+    justify-content: space-between;
+}
+/* distribui os elementos com espacamentos iguais entre eles. (sem espacamentos nas bordas). */
+
+/*
+Importante lembrar que as propriedades justify-content e align-items apenas movimentam as tags filhas diretas do flex container.
+*/
