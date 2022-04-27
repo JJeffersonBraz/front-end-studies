@@ -1,0 +1,7 @@
+.cartao {
+    width: 100%;
+    overflow: hidden;
+}
+/* 
+Overflow hidden serve para esconder qualquer coisa que ultrapasse os limites do cartao vai ficar escondido. 
+*/

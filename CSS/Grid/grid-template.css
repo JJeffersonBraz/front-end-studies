@@ -1,0 +1,34 @@
+
+.cartao__conteudo {
+    display: grid;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 100px;
+}
+/* 
+    O display grid container vai utilizar as mesmas propriedades do justify-content e align-items, porem, vao ser utilizados no grid mais para alinhamento dos itens. O grid container contem duas propriedades que adicionais: grid-templete-columns e grid-template-rows. O display grid tambem nos oferece uma nova unidade de medida: fracoes (fr). O codigo abaixo fraciona os elementos da mesma forma, so que utizando a unidade de medida fracao (fr).
+*/
+.cartao__conteudo {
+    display: grid;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+/* 
+    Por padrao, o grid vai distribuir os elementos por linhas ou colunas (1 elemento para cada linha/coluna). Porem, ele tambem permite que 1 elemento utiliza varias linhas/colunas, para isso, utilizamos a propriedade grid-columns ou grid-rows direto no elemento filho do grid container que queremos que apresente esse comportamento.
+*/
+
+.cartao__item {
+    font-size: 1,2rem;
+
+    grid-column: span 3;
+}
+/* 
+    Span sera o numero de fracoes que o item ira ocupar. Fazendo uma analogia ao excel, e' como se estivessemos mesclando 3 celulas.
+*/

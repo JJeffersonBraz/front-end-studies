@@ -1,0 +1,6 @@
+.cabecalho__item {
+    display: flex;
+
+    align-self: center;
+}
+/* Contem, basicamente, as mesmas propriedades do align-items, porem, o aligm-self e o justify-self servem para alinhar um determinado item dentro de um flex container. Para isso, aplica-se o atributo no filho que esta contido no flex contanier */
