@@ -1,0 +1,12 @@
+.cartao__conteudo {
+    display: grid;
+
+    gap: 8px;
+    row-gap: 8px;
+    column-gap: 16px;
+}
+/* 
+    A propriedade gap(vao) serve criar um espacamento entre os itens contidos no grid container, o conportamento do gap e' parecido com o do justify-content: space-between, ele cria o espaco somente entre os elementos, deixando os elementos das bordas sem os espacamentos. O gap quanto usado, pode substituir a utilizacao do margine paddind que fariam esse trabalho de espacamento. A variacao dessa propriedade porde ser:
+        row-gap: Cria espacamentos apenas entre linhas;
+        Column-gap: Cria espacamentos apenas entre colunas.
+*/

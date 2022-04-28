@@ -1,4 +1,3 @@
-
 .cartao__conteudo {
     display: grid;
 
@@ -31,4 +30,16 @@
 }
 /* 
     Span sera o numero de fracoes que o item ira ocupar. Fazendo uma analogia ao excel, e' como se estivessemos mesclando 3 celulas.
+*/
+
+.cartao__conteudo {
+    display: grid;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    grid-template-columns: auto 300px;
+}
+/* 
+    A primeira coluna vai se ajustar automaticamente ao elemento de maior tamanho na primeira coluna do grid container.
 */

@@ -1,0 +1,36 @@
+.conteudo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-items: flex-start;
+}
+
+
+.conteudo__item {
+    height: 100%;
+    width: 100vw;
+    flex: 0 1 auto;
+}
+
+/*
+     Display flex so aplica relacao entre os elementos pai e os filhos, nao sao aplicadas para elementos mais abaixo na hierarquia.
+
+     Se nao for declarada uma altura para o flex container, sua altura sera definida pela altura dos elementos filhos (flex-itens).
+*/
+
+/*
+     Compotamento padrao dos flex-itens:
+          justufy-content: flex-start -> comeca a partir da borda inicial do flex contanier.
+          flex wrap: nowrap -> Nao quebra linha automatico.
+          itens nao se expandem para ocupar a dimensao total do eixo principal.
+          itens se expandem para ocupar a dimensao total do eixo transversal.          
+          
+     Nao devemos utilizar as propriedades float, vertical-align, margin auto no flex item.
+
+     a propriedade "flex: 0 1 auto" no item do flex container e' uma propriedade que condensa varias propriedades em uma so. Por padrao ele vem da forma disposta acima e faz com que os itens ocupem so o espaco disponivel e nao crescam, so encolham.
+
+     0 -> representa o flex-grow que define o quando cada item pode crescer.
+     1 -> representa o flex-shrink que define o quando cada item pode encolher.
+     auto -> representa o flex-bases que define a largura padrao dos itens.
+          *se colocarmos 25% no flex-bases, a linha de conteudo vai conter 4 itens.
+*/
