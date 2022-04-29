@@ -1,0 +1,31 @@
+.principal {
+    display: grid;
+    grid-template-areas: 
+        "titulo-pagina titulo-pagina titulo-pagina"
+        "destaque-video destaque-video videos-recentes"
+        "secao-videos secao-videos secao-videos"
+        "produtos-recentes destaque-produtos destaque-produtos"
+        "secao-produtos secao-produtos secao-produtos"       
+    ;
+}
+
+.principal_item {
+    grid-area: titulo-pagina;
+}
+
+.principal_item2 {
+    grid-area: destaque-resentes;
+}
+
+.principal_item2 {
+    grid-area: destaque-video;
+}
+/* 
+    A propriedade grid-area serve para estruturar o layout de um grid container. E' preciso declarar o layout no grid principal (grid-template-areas) e inserir o nomes escolhidos em cada item (grid-area). Essa utilizacao facilita a manutencao do codigo no futuro pois, se quisermos mudar a disposicao dos intens, nao precisamos entrar manualmente em todos e alterar suas posicoes(grid-row/grid-column), so' procisamos alterar a ordem no grid-template-areas.
+
+    Layout do grid-template-areas::after
+
+    "col1 col2 col3 col4"
+    "col1 col2 col3 col4"
+    "col1 col2 col3 col4"
+*/
