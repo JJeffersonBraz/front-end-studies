@@ -5,7 +5,6 @@
      align-items: flex-start;
 }
 
-
 .conteudo__item {
     height: 100%;
     width: 100vw;
@@ -13,7 +12,7 @@
 }
 
 /*
-     Display flex so aplica relacao entre os elementos pai e os filhos, nao sao aplicadas para elementos mais abaixo na hierarquia.
+     Display flex so aplica relacao entre os elementos pai e os filhos. Nao sao aplicadas para elementos mais abaixo na hierarquia.
 
      Se nao for declarada uma altura para o flex container, sua altura sera definida pela altura dos elementos filhos (flex-itens).
 */
@@ -32,5 +31,5 @@
      0 -> representa o flex-grow que define o quando cada item pode crescer.
      1 -> representa o flex-shrink que define o quando cada item pode encolher.
      auto -> representa o flex-bases que define a largura padrao dos itens.
-          *se colocarmos 25% no flex-bases, a linha de conteudo vai conter 4 itens.
+          *se alterarmos para 25% no flex-bases, por exemplo, a linha de conteudo vai conter 4 itens.
 */

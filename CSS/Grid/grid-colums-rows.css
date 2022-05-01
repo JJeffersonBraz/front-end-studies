@@ -9,7 +9,8 @@
     grid-row: span 3;
 }
 /*     
-    O "Span" agrupara fracoes que o item ira ocupar. Fazendo uma analogia ao excel, e' como se estivessemos mesclando 3 celulas.
+    O "Span" agrupara fracoes que o item ira ocupar.
+    Fazendo uma analogia ao excel, e' como se estivessemos mesclando 3 celulas.
 */
 
 .cartao__item {
@@ -19,7 +20,8 @@
     grid-row: 3;
 }
 /*     
-    As propriedades acima "Span" definim em qual divisao o conteudo do item ira comecar/ocupar. No exmplo acima, o conteudo ira ocupar a coluna 1 da terceira linha.
+    Podemos definir em qual divisao do conteudo o item ira comecar/ocupar.
+    No exemplo acima, o conteudo ira ocupar a coluna 1 da terceira linha.
 */
 
 .cartao__item {
@@ -33,5 +35,5 @@
     Suponha que o item deva iniciar na linha 1 e ocupar 2 linhas, ao inves de declarar 2 "grid-row", podemos declar os dois atributos ao mesmo tempo, separando com uma barra "/".
 */
 /* 
-    Se o o grid container estiver muitas divisoes de conteudo, o precesso de inserir o inicio do container que o item ira ocupar pelos grid-row e grid-column fica muito trabalhoso e arriscado. Nesses casos remenda-se utilzar grid-area pois facilita na manutencao futura do codigo.
+    Se o o grid container estiver muitas divisoes de conteudo, o precesso de inserir o inicio do container que o item ira ocupar pelos grid-row e grid-column fica muito trabalhoso e passivel de erro. Nesses casos remenda-se utilzar grid-area pois facilita na manutencao futura do codigo.
 */

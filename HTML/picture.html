@@ -1,5 +1,16 @@
 <picture>
     <source srcset="assets/img/banner-desktop.jpg" media="(min-width: 1024px)" >
-    <img src="assets/img/banner-mobile.jpg" alt="Capa do Instalura">
+    <img src="assets/img/banner-mobile.jpg" alt="Capa do projeto">
 </picture>
 
+<!--
+    A tag picture pode ser usada para carregar imagens com tamanhos diferentes a partir do tamanho de tela do aparelho do usuario, No caso acima, o site so ira carregar a imagem "banner-mobile" quando o tamanho da tela for menor que 1024px e carregar a imagem "banner-desktop" quando o tamanho da tela for superior a 1024px (carrega uma de cada vez).
+
+        Importante!
+
+        A tag <img> deve ser a última na lista de imagens dentro da <picture>.
+        As tags <source> devem seguir uma ordem de condições. Por exemplo:
+        <source srcset="imagem-1.png" media="(min-width: 1400px)">
+        <source srcset="imagem-2.png" media="(min-width: 768px)">
+        A ordem da tag <source> influencia na prioridade das imagens.
+-->

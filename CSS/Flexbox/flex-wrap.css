@@ -2,12 +2,9 @@
     display: flex;
 
     flex-wrap: wrap;
-}
-/* Acontece a quebra de linha caso o tamanho dos itens ultrapasse o tamanho do flex container */
-
-.itens {
-    display: flex;
-
     flex-wrap: nowrap;
 }
-/* Nao quebra linha, independente do espaco ocupado pelos itens (valor padrao)*/
+/* 
+    flex-wrap: nowrap -> Nao quebra linha, independente do espaco ocupado pelos itens (valor padrao).
+    flex-wrap: wrap -> Acontece a quebra de linha caso o tamanho dos itens ultrapasse o tamanho do flex container.
+*/

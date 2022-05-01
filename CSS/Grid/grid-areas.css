@@ -21,9 +21,9 @@
     grid-area: destaque-video;
 }
 /* 
-    A propriedade grid-area serve para estruturar o layout de um grid container. E' preciso declarar o layout no grid principal (grid-template-areas) e inserir o nomes escolhidos em cada item (grid-area). Essa utilizacao facilita a manutencao do codigo no futuro pois, se quisermos mudar a disposicao dos intens, nao precisamos entrar manualmente em todos e alterar suas posicoes(grid-row/grid-column), so' procisamos alterar a ordem no grid-template-areas.
+    A propriedade grid-area serve para estruturar o layout de um grid container. E' preciso declarar o layout no grid principal (grid-template-areas), escolher nomes para as areas e inserir em cada item (grid-area). Essa utilizacao facilita a manutencao do codigo no futuro pois, se quisermos mudar a disposicao dos intens, nao precisamos entrar manualmente em todos e alterar suas posicoes(grid-row/grid-column), so' procisamos alterar a ordem no grid-template-areas.
 
-    Layout do grid-template-areas::after
+    Layout do grid-template-areas:
 
     "col1 col2 col3 col4"
     "col1 col2 col3 col4"
