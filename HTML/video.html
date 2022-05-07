@@ -1,5 +1,16 @@
-<video src="/img/exemplo.mp4" class="video-exemplo" controls></video>
+<video src="img/exemplo.mp4" controls>
+    <track src="img/legenda-portugues-brasil.vtt" kind="subtitles" srclang="pt-br" label="Português (Brasil)">
+  </video>
+
+
 
 <!-- 
-    A tag video permite adicionar o atributo controls que adicionas os controles de acao ao video para o usuario.
+    A tag video permite adicionar atributos que melhoram a usabilidade:
+        controls -> Adiciona os controles de acao ao video.
+        track -> adiciona legenda ou transcricao ao video
+            kind -> tipo (legenda, transcricao)
+            srclang -> idioma da legenda
+            label -> texto que aparece para quando o usuario seleciona a legenda.
+
+    Criar um arquivo .vtt (legenda). Seguir padrao, curso acessibilidade Web.
 -->
