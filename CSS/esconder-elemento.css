@@ -1,0 +1,29 @@
+img {
+    display: none;
+    visibility: hidden;
+    
+    position: absolute;
+    left: 9999px;
+
+    opacity: 0;
+}
+/* 
+    "Display:none" -> o elemento fica escondido e nao ocupa espaco no conteudo.
+    "visibily:hidden" -> o elemento fica escondido mas contunua ocupando espaco no conteudo.
+    "position: absolute / left: 9999px" -> desloca o elemento para fora da pagina.
+    "opacity: 0" -> o elemento fica sem opacidade (transparente).
+*/
+
+.pular-navegacao,
+.pular-navegacao:active,
+.pular-navegacao:focus,
+.pular-navegacao:hover {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 1px;
+    height: 1px;
+    color: transparent;
+    position: absolute;
+}
