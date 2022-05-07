@@ -19,7 +19,7 @@
 }
 /* 
 
-    Nesse exemplo de botao existem 2 transformacoes:
+    Nesse exemplo de botao existem duas transformacoes:
         1- scale(1.2): Aumenta ou diminui proporcionalmente o botao na medida declarada.
         2- rorate(90deg): Rotaciona o botao na medida declarada em graus (deg).
     OBS.: Nessa contexto, a segunda declaracao (rotate) vai sobreescrever a primeira devido ao estilo de cascata do CSS, Para aplicar as 2 transformacoes ao mesmo tempo deve-se declara-las na mesma linha de codido:

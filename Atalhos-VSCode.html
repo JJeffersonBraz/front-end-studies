@@ -22,13 +22,35 @@ CTRL + SHIRFT + ` -> Abre o terminal.
 <body>
     section.destaque.container
 </body>    
- <!--
+<!--
     O Emmet permite adicionar classes na sua formacao, no exempli acima e' criada a tag section com as classes destaque e container
 -->
 
 <body>
     section.destaque.container>h2.destaque__titulo+(a*2>figure.destaque__painel>img.destaque__painel-imagem+figc.destaque__painel-texto)+a.destaque__botao
 </body>    
- <!--
+<!--
     Podemos delimitar os paineis do emmet utilizando parenteses.
 -->
+
+<body>
+    header>ul>li*6{produto}
+    header>ul>li*6{$}
+    header>ul>li*6{produto-$}    
+</body>
+<!--
+    Ao utilizar chaves "{}", podemos adicionar o conteudo das tags.
+    O cifrao "$" funciona como contador (0,1,2,3,4...) para conteudo das tags.
+-->
+
+<body>
+    header>ul>li*6>img[src="assets/img/produto-0$"]
+</body>
+<!--
+    Ao utilizar colchetes "[]", podemos alterar os atributos das tags.
+    O exemplo acima vamos ter 6 tags img com seus atributos src com uma sequencia de produto-01 ao produto-06.
+
+    Caso queria usar o cifrao como caracter e nao contador, devemos adicionar uma barra invertida antes: \$ 
+-->
+
+
