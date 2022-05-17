@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>disabled</title>
+</head>
+<body>
+    
+    <form method="post" action="page.php">
+        <input type="text" name="desa" value="desa" disabled/>
+        <input type="text" name="read" value="read" readonly/>
+    </form>
+
+</body>
+</html>
+<!-- 
+Para desabilitar uma opção de input para o usuário, podemos utilizar os atributos diseble e readonly.
+    -Disabled não permite edição e leitura pelo usuário e não envia o valor para o formulário.
+    -Readonly não permite edição, porém permite a leitura pelo usuário e faz o envio do valor para o formulário.
+No caso acima, a página 'page.php' irá receber apenas o $POST['read'].
+-->
