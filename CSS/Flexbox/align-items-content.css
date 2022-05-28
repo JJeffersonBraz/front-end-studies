@@ -12,13 +12,13 @@
     align-items: flex-start; -> Todos os elementos ficam no topo do flex container.
     align-items: flex-end; -> Todos os elementos ficam na base do flex container.
     align-items: center; -> Todos os elementos ficam alinhados no meio do flex container.
-    align-items: stretch; -> Todos os elementos passam a ocupar a altura maxima do flex container. (Valor padrao)
+    align-items: stretch; -> Todos os elementos passam a ocupar a altura máxima do flex container. (Valor padrão)
 
-    align-content tambem tem os mesmos atributos da propriedade align-items.
-        align-items -> Usada com flex container de 1 linha de conteudo     
-        align-content -> Usada com flex container com mais de 1 linha de conteudo
+    align-content também tem os mesmos atributos da propriedade align-items.
+        align-items -> Usada com flex container de 1 linha de conteúdo.
+        align-content -> Usada com flex container com mais de 1 linha de conteúdo.
 
-    Caso a direcao do flex container seja alterada (flex-direction), as propriedades align-itens e justify-content invertem seus eixos de atuacao.
+    Caso a direção do flex container seja alterada (flex-direction), as propriedades align-itens e justify-content invertem seus eixos de atuação.
 
     Importante lembrar que as propriedades justify-content e align-items apenas movimentam as tags filhas diretas do flex container.
 */
