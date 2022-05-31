@@ -6,8 +6,12 @@
     column-gap: 16px;
 }
 /* 
-    A propriedade "gap" serve criar um espacamento entre os itens contidos no grid container. O conportamento do gap e' parecido com o do justify-content: space-between, ele cria o espaco somente entre os elementos, deixando os elementos das bordas sem os espacamentos. O gap quanto usado, pode substituir a utilizacao do margin e paddind (que fariam esse trabalho de espacamento). A variacao dessa propriedade porde ser:
-        gap -> Cria espacamentos de mesmo valor nas linhas e colunas.
-        row-gap -> Cria espacamentos apenas entre linhas.
-        Column-gap -> Cria espacamentos apenas entre colunas.
+*    A propriedade "gap" cria um espaçamento entre os itens contidos no grid container.
+*    O comportamento do gap é parecido com o do justify-content: space-between, ele cria o espaço
+*    somente entre os elementos, deixando os elementos das bordas sem os espaçamentos. O gap
+*    quando usado, pode substituir a utilização do margin e padding (que fariam esse trabalho de
+*    espaçamento). A variação dessa propriedade pode ser:
+*        gap -> Cria espaçamentos de mesmo valor nas linhas e colunas.
+*        row-gap -> Cria espaçamentos apenas entre linhas.
+*        Column-gap -> Cria espaçamentos apenas entre colunas.
 */

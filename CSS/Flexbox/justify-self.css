@@ -3,4 +3,8 @@
 
     justify-self: center;
 }
-/* Contem, basicamente, as mesmas propriedades do align-items, porem, o align-self e o justify-self servem para alinhar um determinado item dentro de um flex container aplicando o atributo no proprio filho que esta contido no flex contanier */
+/*
+*   Contém, basicamente, as mesmas propriedades do align-items, porém, o align-self e o
+*   justify-self servem para alinhar um determinado item dentro de um flex container aplicando
+*   o atributo no próprio filho.
+*/

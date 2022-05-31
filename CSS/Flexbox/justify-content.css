@@ -9,14 +9,19 @@
     justify-content: space-between;
 }
 /*
-    flex-start -> Todos os elementos ficam no inicio do flex container (esquerda). (Valor padrao)
-    flex-end -> Todos os elementos ficam no final do flex container (direita).
-    center -> Todos os elementos ficam centralizados e o restante do espaco e' distribuido nas laterais.
-    space-around -> Distribui os elementos com espacamentos iguais para cada elemento (espacamentos entre os elementos sao dobrados).
-    space-evenly -> Distribui os elementos com espacamentos iguais entre eles. (com espacamentos nas bordas)
-    space-between -> distribui os elementos com espacamentos iguais entre eles. (sem espacamentos nas bordas).
+*    flex-start -> Todos os elementos ficam no início do flex container - esquerda (padrão).
+*    flex-end -> Todos os elementos ficam no final do flex container (direita).
+*    center -> Todos os elementos ficam centralizados e o restante do espaço é distribuído
+*    nas laterais.
+*    space-around -> Distribui os elementos com espaçamentos iguais para cada elemento
+*    (espaçamentos entre os elementos são dobrados).
+*    space-evenly -> Distribui os elementos com espaçamentos iguais entre eles (com espaçamentos
+*    nas bordas).
+*    space-between -> distribui os elementos com espaçamentos iguais entre eles (sem espaçamentos
+*    nas bordas).
 */
 
 /*
-    Importante lembrar que as propriedades justify-content e align-items apenas movimentam as tags filhas diretas do flex container.
+*    Importante lembrar que as propriedades justify-content e align-items apenas movimentam as
+*    tags filhas diretas do flex container.
 */

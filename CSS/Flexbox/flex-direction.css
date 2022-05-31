@@ -7,13 +7,14 @@
     flex-direction: column-reverse;
 }
 /*
-    Direcao que o flex container vai seguir:
-        flex-direction: row; -> Conteudo ficara em linha (valor padrao)
-        flex-direction: row-reverse -> Conteudo ficara em linha (reverso)
-        flex-direction: column -> Conteudo ficara em coluna
-        flex-direction: column-reverse -> Conteudo ficara em coluna (reverso)
+*    Direção que o flex container vai seguir:
+*        flex-direction: row; -> Conteúdo ficará em linha (valor padrão).
+*        flex-direction: row-reverse -> Conteúdo ficará em linha (reverso).
+*        flex-direction: column -> Conteúdo ficará em coluna.
+*        flex-direction: column-reverse -> Conteúdo ficará em coluna (reverso).
 */
 
 /*
-    Ao inverter a posicao de linha pra coluna, os atributos justify-content e align-items tambem tem suas posicoes (vertical e horizontal) invertidas.
+*    Ao inverter a posição de linha para coluna, os atributos justify-content e align-items
+*    também tem suas posições (vertical e horizontal) invertidas.
 */
