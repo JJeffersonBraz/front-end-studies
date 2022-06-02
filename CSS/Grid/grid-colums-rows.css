@@ -1,5 +1,6 @@
 /*
-    Casa item dentro do grid container pode ocupar divisoes pre estabelicidas de acordo com propriedades aplicadas a eles.
+*    Cada item dentro do grid container pode ocupar divisões pré estabelecidas de acordo com
+*    propriedades aplicadas a eles.
 */
 
 .cartao__item {
@@ -9,8 +10,8 @@
     grid-row: span 3;
 }
 /*     
-    O "Span" agrupara fracoes que o item ira ocupar.
-    Fazendo uma analogia ao excel, e' como se estivessemos mesclando 3 celulas.
+*    O "Span" vai agrupar funções que o item irá ocupar.
+*    Fazendo uma analogia ao excel, é como se estivéssemos mesclando 3 células.
 */
 
 .cartao__item {
@@ -20,8 +21,8 @@
     grid-row: 3;
 }
 /*     
-    Podemos definir em qual divisao do conteudo o item ira comecar/ocupar.
-    No exemplo acima, o conteudo ira ocupar a coluna 1 da terceira linha.
+*    Podemos definir em qual divisão do conteúdo o item irá começar/ocupar.
+*    No exemplo acima, o conteúdo irá ocupar a coluna 1 da terceira linha.
 */
 
 .cartao__item {
@@ -32,8 +33,12 @@
     grid-row: 1 / span 2;
 }
 /*
-    Suponha que o item deva iniciar na linha 1 e ocupar 2 linhas, ao inves de declarar 2 "grid-row", podemos declar os dois atributos ao mesmo tempo, separando com uma barra "/".
+*    Suponha que o item deva iniciar na linha 1 e ocupar 2 linhas, ao invés de declarar 2
+*    "grid-row", podemos declar os dois atributos ao mesmo tempo, separando com uma barra "/".
 */
+
 /* 
-    Se o o grid container estiver muitas divisoes de conteudo, o precesso de inserir o inicio do container que o item ira ocupar pelos grid-row e grid-column fica muito trabalhoso e passivel de erro. Nesses casos remenda-se utilzar grid-area pois facilita na manutencao futura do codigo.
+*    Se o grid container estiver muitas divisões de conteúdo, o processo de inserir o início do
+*    container que o item irá ocupar pelos grid-row e grid-column fica muito trabalhoso e passível
+*    de erro. Nesses casos recomenda-se utilizar grid-area pois facilita na manutenção futura do código.
 */

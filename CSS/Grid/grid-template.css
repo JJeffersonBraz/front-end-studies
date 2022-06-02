@@ -8,7 +8,11 @@
     grid-template-rows: 200px 100px;
 }
 /* 
-    O display grid container vai utilizar as mesmas propriedades do justify-content e align-items, porem, vao ser utilizados no grid mais para alinhamento dos itens. O grid container contem duas propriedades adicionais: grid-templete-columns e grid-template-rows. Ele tambem oferece uma nova unidade de medida: fracoes (fr). O codigo abaixo divide os conteudos dos elementos da mesma forma citada acima, so que utizando a unidade de medida fracao (fr).
+*    O display grid container vai utilizar as mesmas propriedades do justify-content e align-items,
+*    porém, elas serão utilizados no grid mais para alinhamento dos itens. O grid container contém
+*    duas propriedades adicionais: grid-templete-columns e grid-template-rows. Ele também oferece
+*    uma nova unidade de medida: frações (fr). O código abaixo divide os conteúdos dos elementos da
+*    mesma forma citada acima, só que utilizando a unidade de medida fração (fr).
 */
 
 .cartao__conteudo {
@@ -21,7 +25,10 @@
     grid-template-rows: 2fr 1fr;
 }
 /* 
-    Por padrao, o grid vai distribuir os elementos por linhas ou colunas (1 elemento para cada linha/coluna). Porem, ele tambem permite que 1 elemento utilize varias linhas/colunas, para isso, utilizamos a propriedade grid-columns ou grid-rows direto no elemento filho do grid container que queremos que apresente esse comportamento.
+*    Por padrão, o grid vai distribuir os elementos por linhas ou colunas (1 elemento para cada
+*    linha/coluna). Porém, ele também permite que 1 elemento utilize várias linhas/colunas, para
+*    isso, utilizamos a propriedade grid-columns ou grid-rows direto no elemento filho do grid
+*    container que queremos que apresente esse comportamento.
 */
 
 .cartao__conteudo {
@@ -33,7 +40,8 @@
     grid-template-columns: auto 300px;
 }
 /* 
-    A primeira coluna esta utilizando o atributo "auto" na definicao, com isso, a coluna vai se ajustar automaticamente ao elemento de maior tamanho na primeira coluna do grid container.
+*    A primeira coluna está utilizando o atributo "auto" na definição, com isso, a coluna vai se
+*    ajustar automaticamente ao elemento de maior tamanho na primeira coluna do grid container.
 */
 
 .cartao__conteudo {
@@ -43,7 +51,9 @@
     grid-template-columns: repeat(3, auto);
 }
 /* 
-    Nessa situacao, queremos dividir o conteudo em 3 colunas ajustaveis ao item, para nao precisar codar "auto auto auto", utilizamos o atributo "repeat" seguido da quantidade de repeticoes e seu valor.
+*    Nessa situação, queremos dividir o conteúdo em 3 colunas ajustáveis ao item, para não precisar
+*    colar "auto auto auto", utilizamos o atributo "repeat" seguido da quantidade de repetições e seu
+*    valor.
 */
 
 .cartao__conteudo {
@@ -52,5 +62,6 @@
     grid-template-columns: auto 1fr auto;
 }
 /* 
-    Nessa implementacao, o conteudo sera divido em 3 partes sendo a primeira e a ultima ajustaveis ao item e o espaco restante vai ficar na coluna do meio.
+*    Nessa implementação, o conteúdo será dividido em 3 partes, sendo a primeira e a última
+*    ajustáveis ao item e o espaço restante vai ficar na coluna do meio.
 */
