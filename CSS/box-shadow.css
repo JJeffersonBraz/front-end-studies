@@ -4,11 +4,11 @@
 }
 
 /* 
-*    10px -> Deslocamento horizontal da sombra:
-*    20px -> Deslocamento vertical da sombra:
-*    30px -> Esfumaçamento da sombra (transparência):
+*    10px -> Deslocamento horizontal da sombra.
+*    20px -> Deslocamento vertical da sombra.
+*    30px -> Esfumaçamento da sombra (transparência).
 *    40px -> Intensidade da borda.    
-*    #000000 -> Cor da sombra
+*    #000000 -> Cor da sombra.
 */
 
 .img-beneficios {
@@ -17,7 +17,7 @@
 }
 
 /*
-*    No exemplo acima adicionamos diversas sombras no mesmo elemento:
+*    É possível adicionar diversas sombras ao mesmo elemento (Acima).
 */
 
 .img-beneficios {
@@ -26,6 +26,8 @@
 }
 
 /*
-*    Quando adicionamos o "inset", a sombra passa a ser interna ao elemento. Onde "10px" refere-se
-*    ao eixo X, "20px" refere-se ao eixo Y e "30px" refere-se ao espaçamento(tamanho) da sombra.
+*    A propriedade "inset" faz com que a sombra torne-se interna ao elemento.
+*    10px -> Refere-se ao eixo X.
+*    20px -> Refere-se ao eixo Y.
+*    30px -> Refere-se ao espaçamento(tamanho) da sombra.
 */

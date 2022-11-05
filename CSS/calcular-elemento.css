@@ -14,12 +14,18 @@
 }
 
 /*
-
-    E' possivel calcular o tamanho de um elemento a partir de calculos dirto no css.
-
-    Exemplo: Como usar as medidas proporcionais para deixar um elemento de 100% de largura com o equivalente a um terço do elemento pai, menos 10px?
-
-    width: calc(33% - 10px);   Essa é a forma mais direta!
-    width: calc((100% / 3) - 10px);    Essa é uma forma mais complexa, não precisa dessa primeira conta!
-
+*   É possível calcular o tamanho de um elemento diretamente no css.
+*
+*   Exemplo: Como usar as medidas proporcionais para deixar um elemento de 100% de largura com
+*   o equivalente a um terço menos 10px do seu elemento pai?
 */
+
+/*  Forma 01 */
+.utensilios {
+    width: calc(33% - 10px);
+}
+
+/*  Forma 02  */
+.utensilios {
+    width: calc((100% / 3) - 10px);  
+}      

@@ -8,7 +8,7 @@ h1 {
 
     box-sizing: border-box;
 }
-/* Propriedades que definem o tamanho total do elemento na página. */
+/*  Propriedades que definem o tamanho total do elemento na página. */
 
 .produtos li {
     display: inline-block;
@@ -25,6 +25,6 @@ h1 {
 *    total) = 99% da página. Nesse contexto, ao aplicar o padding, o navegador considera como um
 *    aumento de tamanho das "li(s)", ultrapassando o limite da página e realocando o último item
 *    para linha seguinte. O "box-sizing: borde-box" faz com que o navegador considere que padding e
-*    margin aplicado vai está contido no percentual definido para a "li", deixando todos na mesma
+*    margin aplicado estará contido no percentual definido para a "li", deixando todos na mesma
 *    linha.
 */
