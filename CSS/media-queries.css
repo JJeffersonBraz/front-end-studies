@@ -3,8 +3,9 @@
         background-color: red;
     }    
 }
+
 /* 
-    Com essa implementacao, essa media so vai existir quando o tamanho da tela for igual a 610px.
+*    Essa media so vai existir quando o tamanho da tela for igual a 610px.
 */
 
 @media (min-width: 610px) {
@@ -13,7 +14,7 @@
     }    
 }
 /* 
-    Com essa implementacao, essa media so vai existir quando o tamanho minimo da tela for de 610px, ou seja, a partir de 610px ela vai existir.
+*    Essa media so vai existir quando o tamanho mínimo da tela for de 610px, ou seja, a partir de 610px ela vai existir.
 */
 
 @media screen and (min-width: 610px) {
@@ -27,13 +28,14 @@
         background-color: red;
     }    
 }
+
 /* 
-    Acima temos 2 implementacoes com diferentes "media types".
-        Com "screen", a media so vai existir com dispositivos que tenham tela.
-        Com "print", a media so vai existir com dispositivos de impressao.
-            Ex,: Quando for imprimir um boleto em um site, podemos colocar para imprimir so o boleto e esconder todo o restante do site.
+*    Acima temos 2 implementações com diferentes "media types".
+*        Com "screen", a media so vai existir com dispositivos que tenham tela.
+*        Com "print", a media so vai existir com dispositivos de impressão.
+*            Ex.: Quando for imprimir um boleto em um site, podemos programar para imprimir só o boleto e esconder todo o restante do site.
 */
 
 /* 
-Tamanhos de Tablets (padrao): 768px ate 1024px.
+*    Tamanhos de Tablets (padrão mais utilizado): 768px até 1024px.
 */

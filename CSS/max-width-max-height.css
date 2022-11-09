@@ -5,8 +5,10 @@
     height: 100vh;
     max-height: 600px;
 }
-/* 
-    A imagem vai ocupar 100% da largura da tela (viewport width).
 
-    Vale ressaltar que, caso a tela fique muito grande, a imagem tende a acompanhar esse crescimento, ficando distorcida ou desproporcinal ao conteudo, por isso, devemos limitar o tamanho dessa imagem com uma unidade de medida fixa(px):
+/* 
+*    A imagem ocupará 100% da largura da tela (viewport width).
+*
+*    Vale ressaltar que, caso a tela fique muito grande, a imagem tende a acompanhar esse crescimento, ficando
+*    distorcida e/ou desproporcinal ao conteúdo, por isso, devemos limitar o tamanho dessa imagem com uma unidade de medida fixa(px).
 */

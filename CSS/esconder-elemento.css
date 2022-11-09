@@ -8,10 +8,10 @@ img {
     opacity: 0;
 }
 /* 
-    "Display:none" -> o elemento fica escondido e nao ocupa espaco no conteudo.
-    "visibily:hidden" -> o elemento fica escondido mas contunua ocupando espaco no conteudo.
-    "position: absolute / left: 9999px" -> desloca o elemento para fora da pagina.
-    "opacity: 0" -> o elemento fica sem opacidade (transparente).
+*    "Display:none" -> O elemento fica escondido e não ocupa espaço no conteúdo.
+*    "visibily:hidden" -> O elemento fica escondido, porém continua ocupando espaço no conteúdo.
+*    "position: absolute / left: 9999px" -> Desloca o elemento para fora da página.
+*    "opacity: 0" -> O elemento fica sem opacidade (transparente).
 */
 
 .pular-navegacao,
