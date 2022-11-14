@@ -5,7 +5,7 @@
 }
 
 /* 
-*    Essa media so vai existir quando o tamanho da tela for igual a 610px.
+*    Essa media só vai existir quando o tamanho da tela for igual a 610px.
 */
 
 @media (min-width: 610px) {
@@ -14,7 +14,7 @@
     }    
 }
 /* 
-*    Essa media so vai existir quando o tamanho mínimo da tela for de 610px, ou seja, a partir de 610px ela vai existir.
+*    Essa media só vai existir quando o tamanho mínimo da tela for de 610px, ou seja, a partir de 610px ela vai existir.
 */
 
 @media screen and (min-width: 610px) {

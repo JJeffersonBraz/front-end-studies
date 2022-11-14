@@ -8,8 +8,8 @@
     opacity: 0.3;
 }
 /*
-    Podemos aplicar opacidade nos elementos com css (0 ate 1).
-    No contexto acima, ao passar o cursor sobre a imagem, so veremos 30% da imagem nitida.
+    Podemos aplicar opacidade nos elementos com CSS (0 ate 1).
+    No contexto acima, ao passar o cursor sobre a imagem, so veremos 30% da imagem nítida.
 */
 
 thead {
@@ -18,6 +18,7 @@ thead {
     color: rgba(0, 0, 0, 0.3);
 }
 /*
-    Podemos aplicar opacidade tambem nas cores dos elementos usando a opcao rgba(red, green, blue, alpha) onde o alpha e' a camada de opacidade.
-    No contexto acima, so veremos 30% da texto nitido.
+    Podemos aplicar opacidade nas cores dos elementos usando a opção rgba(red, green, blue, alpha)
+    alpha é a camada de opacidade.
+    No contexto acima, so veremos 30% da texto nítido.
 */

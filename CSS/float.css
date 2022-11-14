@@ -14,10 +14,10 @@ h2 {
 }
 
 /* 
-*    No exemplo acima, temos uma imagem seguida de um paragráfo e um título (h2). Queremos que a imagem fique localizada
-*    a esquerda e o paragrafo fique no seu entorno, sem que haja sobreposicao. Para isso, devemos utilizar o float.
+*    No exemplo acima, temos uma imagem seguida de um parágrafo e um título (h2). Queremos que a imagem fique localizada
+*    a esquerda e o parágrafo fique no seu entorno, sem que haja sobreposição. Para isso, devemos utilizar o float.
 *    
 *    Lembrando que o float atinge todo o restante da estrutura da página, para que isso não ocorra, após a
-*    utilização do float, devemo "limpar" essa flutuanção do restante da página adicionando a propriedade "clear".
+*    utilização do float, devemos "limpar" essa flutuanção do restante da página adicionando a propriedade "clear".
 *    No caso acima, foi adicionado ao título (h2) pois vem logo após a imagem e parágrafo.
 */

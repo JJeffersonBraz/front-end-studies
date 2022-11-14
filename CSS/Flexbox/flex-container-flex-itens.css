@@ -28,7 +28,7 @@
 *     Não devemos utilizar as propriedades float, vertical-align, margin auto no flex item.
 *
 *     A propriedade "flex: 0 1 auto" no item do flex container é uma propriedade que condensa
-*     várias propriedades em uma só. Por padrão ele vem da forma disposta acima e faz com que os
+*     várias propriedades em uma só. Por padrão, ele vem da forma disposta acima e faz com que os
 *     itens ocupem só o espaço disponível e não cresçam, só encolhem.
 *
 *     0 -> representa o flex-grow que define o quando cada item pode crescer.
