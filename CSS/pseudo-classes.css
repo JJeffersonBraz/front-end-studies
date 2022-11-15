@@ -1,39 +1,33 @@
 .itens:first-child {
-    font-weight: bold; /* As estilizacoes serao aplicadas no primeiro filho da lista/sequencia */
-}
-
-.itens:nth-child(2) {
-    font-weight: bold; /* As estilizacoes serao aplicadas no segundo filho da lista/sequencia */
+    font-weight: bold; /* As estilizações serão aplicadas no primeiro filho da lista/sequência */
 }
 
 .itens:nth-child(5) {
-    font-weight: bold; /* As estilizacoes serao aplicadas no quinto filho da lista/sequencia */
+    font-weight: bold; /* As estilizações serão aplicadas no quinto filho da lista/sequência */
 }
 
 .itens:last-child {
-    font-weight: bold; /* As estilizacoes serao aplicadas no ultimo filho da lista/sequencia */
+    font-weight: bold; /* As estilizações serão aplicadas no último filho da lista/sequência */
 }
 
 .itens:nth-child(2n) {
-    font-weight: bold; /* As estilizacoes serao aplicadas nos elementos pares da lista/sequencia */
+    font-weight: bold; /* As estilizações serão aplicadas nos elementos pares da lista/sequência */
 }
 
 /* ________________________________________________________________________________ */
 
 .titulo-principal:first-letter {
-    font-weight: bold; /* As estilizacoes serao aplicadas na primeira letra do titulo */
+    font-weight: bold; /* As estilizações serão aplicadas na primeira letra do título */
 }
 
 p:first-line {
-    font-style: italic; /* As estilizacoes serao aplicadas na primeira linha do paragrafo */
+    font-style: italic; /* As estilizções serão aplicadas na primeira linha do parágrafo */
 }
 
 /* 
-
-    Existem varias pseudo-classes. Segue algumas mais utilizadas:
-        :hover -> Quando o cursor esta em cima do item.
-        :active -> quando o item e' acionado (clicado).
-        :visited -> Link ja acionado (visitado).
-        :required -> Item obrigadorio.
-
+*Existem várias pseudo-classes. Segue algumas mais utilizadas:
+*    :hover -> Quando o cursor esta em cima do item.
+*    :active -> quando o item é acionado (clicado).
+*    :visited -> Link já acionado (visitado).
+*    :required -> Item obrigatório.
 */
