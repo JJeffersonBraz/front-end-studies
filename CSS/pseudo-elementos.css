@@ -3,14 +3,14 @@
     content: "[ ";
 }
 /*
-    Cria um espaco em que o css pode ser usado antes do elemento, nesse caso, o conteudo "[ "
+*    Cria um espaço em que o CSS pode ser usado antes do elemento, nesse caso, o conteúdo "[ "
 */
 
 .titulo-principal:after {
     content: " ]";
 }
 /*
-    Cria um espaco em que o css pode ser usado depois do elemento, nesse caso, o conteudo " ]"
+*    Cria um espaço em que o CSS pode ser usado depois do elemento, nesse caso, o conteúdo " ]"
 */
 
 .cabecalho__perfil {
@@ -24,6 +24,7 @@
     background-position: center;
 } 
 /* 
-    O codigo acima mostra uma imagem em um perfil de cabecalho feita por pseudo-elemento, isto e', so foi declarada a classe no HTML e sua implementacao e inclusao da imagem foi feita no CSS.
-    Lembrar sempre de declarar a propriedade "content", mesmo que ela esteja vazia.
+*    O código acima mostra uma imagem em um perfil de cabeçalho feita por pseudo-elemento, isto é, só foi declarada a
+*    classe no HTML, sua implementação e a inclusão da imagem foi feita no CSS.
+*    Lembrar sempre de declarar a propriedade "content", mesmo que ela esteja vazia.
 */
