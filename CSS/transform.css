@@ -18,11 +18,14 @@
     transform: rotate(90deg);
 }
 /* 
-
-    Nesse exemplo de botao existem duas transformacoes:
-        1- scale(1.2): Aumenta ou diminui proporcionalmente o botao na medida declarada.
-        2- rorate(90deg): Rotaciona o botao na medida declarada em graus (deg).
-    OBS.: Nessa contexto, a segunda declaracao (rotate) vai sobreescrever a primeira devido ao estilo de cascata do CSS, Para aplicar as 2 transformacoes ao mesmo tempo deve-se declara-las na mesma linha de codido:
-        transform: rotate(90deg) scale(1.2);
-
+*
+*    Nesse exemplo de botão, existem duas transformações:
+*        1- scale(1.2) -> Aumenta ou diminui proporcionalmente o botão na medida declarada.
+*        2- rorate(90deg) -> Rotaciona o botão na medida declarada em graus (deg).
+*    
+*    OBS.: Nesse contexto, a segunda declaração (rotate) vai sobreescrever a primeira devido ao estilo de cascata do CSS.
+*    Para aplicar as 2 transformações ao mesmo tempo, deve-se declara-las na mesma linha de códido:
+*        
+*        transform: rotate(90deg) scale(1.2);
+*
 */
