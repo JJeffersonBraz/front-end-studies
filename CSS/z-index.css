@@ -16,7 +16,10 @@ top: 100px;
 }
 
 /* 
-    O z-index define o nivel de profundidade de um elemento sobre o outro por ordem crescente, isso e', o elemento que tiver o maior valor ficara a frente dos outros (elementos que nao tenham o valor z-index declarados receberam valor auto (0) nessa propriedade.
-
-    No exemplo acima, em uma situacao normal, o quadrado-1 ficaria a frente dos demais na tela, seguido do quadrado-2 e quadrado-3. Porem, quando adicionarmos a propriedade z-index=1 no quadrado-2, ele ficara a frente, seguido do quadrado-1 e quadrado-3.
+*    O z-index define o nível de profundidade de um elemento sobre o outro por ordem crescente, isso é, o elemento que
+*    tiver o maior valor ficará a frente dos outros (elementos que não tenham o valor z-index declarados receberam o
+*    valor auto (0) nessa propriedade.
+*
+*    No exemplo acima, em uma situação normal, o quadrado-1 ficaria a frente dos demais na tela, seguido do quadrado-2 e quadrado-3.
+*    Entretanto, quando adicionamos a propriedade z-index=1 no quadrado-2, ele ficará a frente, seguido do quadrado-1 e quadrado-3.
 */
