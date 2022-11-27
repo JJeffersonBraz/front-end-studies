@@ -1,7 +1,7 @@
 .imagem {
     width: 100%;
 }
-/*  A imagem vai ocupar 100% do espaco da div que ele estiver.  */
+/*  A imagem vai ocupar 100% do espaço da div que ele estiver contida.  */
 
 .imagem {
     width: 100vw;
@@ -21,7 +21,8 @@
     max-height: 600px;
 }
 /* 
-    A imagem vai ocupar 100% da largura da tela (viewport width).
-
-    Vale ressaltar que, caso a tela fique muito grande, a imagem tende a acompanhar esse crescimento, ficando distorcida ou desproporcinal ao conteudo, por isso, devemos limitar o tamanho dessa imagem com uma unidade de medida fixa(px):
+*    A imagem vai ocupar 100% da largura da tela (viewport width).
+*
+*    Vale ressaltar que, caso a tela fique muito grande, a imagem tende a acompanhar esse crescimento, ficando
+*    distorcida ou desproporcinal ao conteúdo, por isso, devemos limitar o tamanho dessa imagem com uma unidade de medida fixa(px):
 */
