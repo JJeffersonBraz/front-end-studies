@@ -1,0 +1,27 @@
+p {
+    background-image: url("imagem.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-image: url("imagem.jpg");
+    background-image: repeat-x;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+h2 {
+    background-image: url("imagem.jpg");
+    background-repeat: repeat-y;
+    background-position: left bottom;
+    background-attachment: local;
+}
+
+h3 {
+    background-image: url("imagem.jpg");
+    background-repeat: space;
+    background-position: center center;
+    background-attachment: initial;
+}
